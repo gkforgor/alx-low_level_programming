@@ -2,9 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *  *main - prints a random number
- *   *Return:0 (unsuccess)
- *    */
+ *positive_or_negative- prints a random number
+ *@n: numbers to be checked as positive or negative
+ *Return:0 (unsuccess)
+ */
 int positive_or_negative(int n)
 {
 	srand(time(0));
